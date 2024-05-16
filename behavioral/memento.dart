@@ -17,6 +17,7 @@ class MetinEditoru {
     _metin = memento.metniGetir();
   }
 }
+//flutter
 
 class MetinMemento {
   final String _metin;
@@ -54,4 +55,3 @@ void main(List<String> args) {
 
   print("Geri yüklenen metin: ${editor.metniAl()}");
 }
-
